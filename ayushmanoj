@@ -6,7 +6,6 @@ void fb(void *ptr);
 void fa(void *ptr);
 void fc(void *ptr);
 
-
 char buf[24];
 sem_t mutex;
 
@@ -30,6 +29,7 @@ sem_destroy(&mutex);
 
 return 0;
 }
+
 
 void fb(void *ptr)
 {
