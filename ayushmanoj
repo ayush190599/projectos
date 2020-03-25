@@ -6,6 +6,7 @@ void fb(void *ptr);
 void fa(void *ptr);
 void fc(void *ptr);
 
+
 char buf[24];
 sem_t mutex;
 
